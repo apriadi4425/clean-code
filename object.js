@@ -27,3 +27,8 @@ const NewPembelian = Pembelian.map(item =>
     UpdateTotalPembelian(item, 2, 100)
 )
 //end
+
+const HilangkanField = Pembelian.filter(item => item.id_user !== 2)
+
+
+
